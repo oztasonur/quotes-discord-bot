@@ -1,0 +1,16 @@
+{
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "discord.js": "^14.12.1",
+    "dotenv": "^16.3.1",
+    "install": "^0.13.0",
+    "nodemon": "^3.0.1",
+    "npm": "^9.8.1"
+  }
+}
